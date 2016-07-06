@@ -38,12 +38,18 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container text-center">
-            <div class="intro-text">
-                <div class="intro-lead-in">欢迎浏览我们的主页</div>
-                <div class="intro-heading">很高兴遇见您</div>
-                <a href="#company" class="page-scroll btn btn-xl">浏览更多</a>
+  <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">{{ site.title }}</h1>
+                        <p class="intro-text">{{ site.description }}<br>
+                        <a href="#company" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
